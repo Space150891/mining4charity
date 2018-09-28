@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8601026f-58e3-4165-8d8b-85d0218f9d59" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/js/components/HowItWorksContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/2menbanner_illustration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/2menbanner_illustration.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/BG_under_illustration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/BG_under_illustration.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/BackgroundHelp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/BackgroundHelp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/BackgroundHelp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/BackgroundHelp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/BgCircle.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/BgCircle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/BgCircle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/BgCircle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/Line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/Line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/LineSupporters.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/LineSupporters.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/Mining4Charity Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/Mining4Charity Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/MiningSectionBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/MiningSectionBG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/MissionImage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/MissionImage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/coins/Bitcoin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/coins/Bitcoin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/coins/BitcoinCash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/coins/BitcoinCash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/coins/Ethereum.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/coins/Ethereum.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/coins/Litecoin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/coins/Litecoin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/coins/Monero.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/coins/Monero.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/coins/Ripple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/coins/Ripple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/logo/AblaPortugallogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/logo/AblaPortugallogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/logo/Greenpeace-Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/logo/Greenpeace-Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/logo/SavethechildrenLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/logo/SavethechildrenLogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/logo/ybslogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/logo/ybslogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/FooterSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/FooterSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/HeaderSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/HeaderSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/HelpUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/HelpUsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/HowItWorksSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/HowItWorksSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/MiningSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/MiningSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/MiningSectionImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/MiningSectionImage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/MissionSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/MissionSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/MissionSectionImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/MissionSectionImage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/NumbersSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/NumbersSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/OrganizationsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/OrganizationsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/SupportersSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/SupportersSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/components/SupportersSectionBrands.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/components/SupportersSectionBrands.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/components/App.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelpUsSection.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/components/HelpUsSection.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#287#593#0" />
+                <element signature="e#602#982#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="490" column="27" selection-start-line="490" selection-start-column="27" selection-end-line="490" selection-end-column="27" />
+              <folding>
+                <element signature="e#3800#5473#0" />
+                <element signature="e#5584#6505#0" />
+                <element signature="e#6606#7516#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/js/components/HeaderSection.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/MiningSection.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/MiningSectionImage.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/NumbersSection.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/SupportersSection.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/SupportersSectionBrands.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/MissionSection.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/MissionSectionImage.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/App.jsx" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/components/HowItWorksContent.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/HowItWorksSection.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/HelpUsSection.jsx" />
+        <option value="$PROJECT_DIR$/app/sass/styles.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mining4charity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mining4charity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mining4charity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mining4charity" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mining4charity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mining4charity" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mining4charity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mining4charity" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mining4charity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mining4charity" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mining4charity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mining4charity" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8601026f-58e3-4165-8d8b-85d0218f9d59" name="Default" comment="" />
+      <created>1528784068096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528784068096</updated>
+      <workItem from="1528784070653" duration="18525000" />
+      <workItem from="1528804770783" duration="9919000" />
+      <workItem from="1528868719102" duration="13270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41714000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18239325" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" visible="true" weight="0.329718" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/js/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/MissionSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/HelpUsSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5565">
+          <caret line="371" column="28" lean-forward="true" selection-start-line="371" selection-start-column="28" selection-end-line="371" selection-end-column="28" />
+          <folding>
+            <element signature="e#3800#5473#0" />
+            <element signature="e#5584#6505#0" />
+            <element signature="e#6606#7516#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/SupportersSectionBrands.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/SupportersSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3465">
+          <caret line="231" column="35" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
+          <folding>
+            <element signature="e#3800#5473#0" />
+            <element signature="e#5584#6505#0" />
+            <element signature="e#6606#7516#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/app.spec.js" />
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/OrganizationsSection.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/FooterSection.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/HeaderSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/BG_under_illustration.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/MiningSectionBG.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/NumbersSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/logo/AblaPortugallogo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/2menbanner_illustration.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/SupportersSectionBrands.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/SupportersSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/MiningSectionImage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/MissionSectionImage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/MiningSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/MissionSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/HowItWorksContent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/HowItWorksSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/HelpUsSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#287#593#0" />
+            <element signature="e#602#982#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="490" column="27" selection-start-line="490" selection-start-column="27" selection-end-line="490" selection-end-column="27" />
+          <folding>
+            <element signature="e#3800#5473#0" />
+            <element signature="e#5584#6505#0" />
+            <element signature="e#6606#7516#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

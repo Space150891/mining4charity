@@ -1,0 +1,634 @@
+$main-font-family: 'Montserrat', sans-serif;
+$main-font-color: #333333;
+$blue-font-color: #2196f3;
+$lightblue-font-color: #2aadff;
+$background-font-color: #e8f4fe;
+
+%bg-text {
+  //position: absolute;
+  z-index: 0;
+  display: block;
+  left: 10px;
+  font-family: $main-font-family;
+  font-weight: 900;
+}
+%bg-text__title{
+  font-size: 3.75rem;
+  color: $background-font-color;
+  margin: 0;
+}
+%sct-title{
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+}
+%sct-title__text{
+  font-size: 2.25rem;
+  margin: 0;
+  font-family: $main-font-family;
+  font-weight: 500;
+}
+%mission-content-titles{
+  font-size: 1.875rem;
+  line-height: 36px;
+  color: $blue-font-color;
+  font-family: $main-font-family;
+  margin-bottom: 27px;
+}
+%mission-content-texts{
+  font-size: 0.875rem;
+  line-height: 30px;
+  color: $main-font-color;
+  font-family: $main-font-family;
+}
+/* ========== STYLES ========== */
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: $main-font-family;
+  //font-family: 'Nunito', sans-serif;
+
+  .navbar-expand-lg .navbar-collapse{
+    font-family: $main-font-family;
+    font-size: 1rem;
+    color: $main-font-color;
+
+    .nav-item:not(:last-child){
+      margin-right: 50px;
+    }
+  }
+
+
+  /* === Start Mining Section === */
+  .mining-section{
+    margin: 85px 0 0 15px;
+
+    &__title{
+      position: relative;
+      margin-bottom: 35px;
+
+      & h1{
+        font-size: 3rem;
+        font-family: $main-font-family;
+        color: $main-font-color;
+
+        & span{
+          color: $blue-font-color;
+        }
+      }
+      & .blue-line{
+        position: absolute;
+        top: 60px;
+        left: 5px;
+      }
+    }
+
+    &__counter{
+
+      & h3{
+        font-size: 1.5rem;
+        font-family: $main-font-family;
+        color: $main-font-color;
+      }
+      & p{
+        text-align: center;
+        font-size: 1.5rem;
+        color: $lightblue-font-color;
+        margin: 20px 0;
+      }
+    }
+
+    &__range{
+
+      & h4{
+        font-family: $main-font-family;
+        font-size: 1.125rem;
+        color: $main-font-color;
+        margin-bottom: 10px;
+      }
+      & p{
+        text-align: center;
+        font-size: 1.5rem;
+        color: $blue-font-color;
+      }
+    }
+
+    &__button{
+      text-align: center;
+
+      & button{
+        width: 339px;
+        height: 60px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 16px rgba(158,158,158,0.3);
+        background-color: #ffffff;
+        color: $lightblue-font-color;
+        text-transform: uppercase;
+      }
+    }
+
+    &-image{
+      background-image: url('/images/MiningSectionBG.png');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      & img{
+        margin-top: 100px;
+      }
+    }
+  }
+  /* === End Mining Section === */
+
+  /* === Start Numbers Section === */
+  .numbers-section{
+    margin: 40px 0 60px;
+
+    &__visit{
+      position: relative;
+      text-align: center;
+
+      & h2{
+        font-family: $main-font-family;
+        font-size: 3rem;
+        color: $main-font-color;
+
+        & span{
+          font-family: $main-font-family;
+          font-size: 1.875rem;
+          color: $main-font-color;
+        }
+      }
+
+      & img{
+        position: absolute;
+        right: 70px;
+        top: 60px;
+      }
+    }
+
+    &__donate{
+      position: relative;
+      text-align: center;
+
+      & h2{
+        font-family: $main-font-family;
+        font-size: 3rem;
+        color: $main-font-color;
+
+        & span{
+          font-family: $main-font-family;
+          font-size: 1.875rem;
+          color: $main-font-color;
+        }
+      }
+
+      & img{
+        position: absolute;
+        right: 45px;
+        top: 60px;
+      }
+    }
+  }
+  /* === End Numbers Section === */
+
+  /* === Start How It Works Section === */
+  .how-works-section{
+    margin-bottom: 60px;
+
+    &__title{
+      position: relative;
+
+      .background-text{
+        @extend %bg-text;
+
+        &__title {
+          @extend %bg-text__title;
+        }
+      }
+      .section-title{
+        @extend %sct-title;
+
+        &__text{
+          @extend %sct-title__text;
+        }
+      }
+    }
+    &__content{
+      background: url('/images/HowItWorksLine.png');
+      background-size: 800px;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-top: 65px;
+
+      .col-lg-4{
+        text-align: center;
+      }
+      .blot{
+        background: url('/images/Start.png');
+        background-size: auto;
+        background-repeat: no-repeat;
+      }
+      .rocket-block{
+        padding: 40px 45px;
+
+        img{
+          padding: 40px 0 20px;
+        }
+        p{
+          font-size: 0.75rem;
+          font-family: $main-font-family;
+          color: $main-font-color;
+        }
+      }
+      .cpu-block{
+        padding: 40px 45px;
+
+        img{
+          padding: 40px 0 20px;
+        }
+        p{
+          font-size: 0.75rem;
+          font-family: $main-font-family;
+          color: $main-font-color;
+        }
+      }
+      .refresh-block{
+        padding: 40px 50px;
+
+        img{
+          padding: 40px 0 20px;
+        }
+        p{
+          font-size: 0.75rem;
+          font-family: $main-font-family;
+          color: $main-font-color;
+        }
+      }
+      .org-block{
+        padding: 40px 47px;
+
+        img{
+          padding: 40px 0 20px;
+        }
+        p{
+          font-size: 0.75rem;
+          font-family: $main-font-family;
+          color: $main-font-color;
+        }
+      }
+    }
+  }
+  /* === End How It Works Section === */
+
+  /* === Start Organizations Section === */
+  .organizations-section{
+    margin-bottom: 90px;
+
+    &__title{
+      position: relative;
+      margin-bottom: 45px;
+
+      .background-text{
+        @extend %bg-text;
+
+        &__title {
+          @extend %bg-text__title;
+        }
+      }
+      .section-title{
+        @extend %sct-title;
+
+        &__text{
+          @extend %sct-title__text;
+        }
+      }
+    }
+
+    .organizations-logo{
+      background: url('/images/BgCircle.png');
+      background-position: center;
+      background-size: 200px;
+      background-repeat: no-repeat;
+      padding: 50px;
+      text-align: center;
+
+      & .logo-save{
+        padding-top: 15px;
+      }
+      & .logo-ybs{
+        padding-top: 15px;
+      }
+      & .logo-green{
+        padding-top: 30px;
+        padding-right: 10px;
+      }
+      & .logo-abla{
+        padding-left: 15px;
+        padding-top: 20px;
+      }
+    }
+
+    & .row {
+
+      & img{
+        margin: 0 auto;
+      }
+    }
+  }
+  /* === End Organizations Section === */
+
+  /* === Start Mission Section === */
+  .mission-section {
+    margin-bottom: 85px;
+
+    &__title {
+      position: relative;
+      margin-bottom: 85px;
+
+      .background-text {
+        @extend %bg-text;
+
+        &__title {
+          @extend %bg-text__title;
+        }
+      }
+      .section-title {
+        @extend %sct-title;
+
+        &__text {
+          @extend %sct-title__text;
+        }
+      }
+    }
+
+    &__content{
+
+      &-text{
+
+        .new-horizon h3{
+          @extend %mission-content-titles;
+        }
+        .our-aim h3{
+          @extend %mission-content-titles;
+          margin-top: 45px;
+        }
+        .donate-cpu h3{
+          @extend %mission-content-titles;
+          margin-top: 45px;
+        }
+        .new-horizon p{
+          @extend %mission-content-texts
+        }
+        .our-aim p{
+           @extend %mission-content-texts;
+         }
+        .donate-cpu p{
+          @extend %mission-content-texts;
+        }
+      }
+    }
+  }
+  /* === End Mission Section === */
+
+  /* === Start Help us Section === */
+  .help-us-section{
+
+    &__title{
+      position: relative;
+      margin-bottom: 45px;
+
+      .background-text {
+        @extend %bg-text;
+
+        &__title {
+          @extend %bg-text__title;
+        }
+      }
+      .section-title {
+        @extend %sct-title;
+
+        &__text {
+          @extend %sct-title__text;
+        }
+      }
+    }
+    &__subtitle{
+
+      & div{
+        font-size: 1rem;
+        line-height: 36px;
+        color: $main-font-color;
+        font-family: $main-font-family;
+        text-align: center;
+        padding: 0;
+      }
+    }
+    &__content{
+      background: url('/images/BackgroundHelp.png');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      .coins-row{
+        margin: 70px 0;
+      }
+      .coins-row-2{
+        margin: 35px 0 70px;
+      }
+      .coin-block{
+        text-align: center;
+
+        &__title{
+          font-size: 1.125rem;
+          margin: 25px 0 15px;
+          color: $main-font-color;
+          font-family: $main-font-family;
+        }
+        &__button{
+          width: 146px;
+          height: 38px;
+          border-radius: 19px;
+          box-shadow: -0.349px -4.988px 16px rgba(212,212,212,0.3);
+          background-color: #ffffff;
+          color: $blue-font-color;
+          border: none;
+          font-family: $main-font-family;
+          font-weight: 500;
+          outline: none;
+          cursor: pointer;
+        }
+        &__button:hover{
+          box-shadow: -0.349px -4.988px 16px rgba(150,150,150,0.3);
+          background-color: $blue-font-color;
+          color: #ffffff;
+          border: none;
+          font-family: $main-font-family;
+          font-weight: 500;
+        }
+        .group-element{
+           position: relative;
+
+          .w-code{
+            width: 355px;
+            height: 26px;
+            border-radius: 10px;
+            border: none;
+            background-color: #ffffff;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            line-height: 60px;
+            color: $main-font-color;
+            font-family: "Nunito";
+            margin-top: 15px;
+            outline: none;
+          }
+
+          .copy-code{
+            position: absolute;
+            right: -35px;
+            top: 4px;
+            cursor: pointer;
+          }
+        }
+
+      }
+    }
+  }
+  /* === End Help us Section === */
+
+  /* === Start Supporters Section === */
+  .supporters-section{
+
+    &__title{
+
+      position: relative;
+      margin-bottom: 45px;
+
+      .background-text {
+        @extend %bg-text;
+
+        &__title {
+          @extend %bg-text__title;
+        }
+      }
+      .section-title {
+        @extend %sct-title;
+
+        &__text {
+          @extend %sct-title__text;
+        }
+      }
+    }
+
+    .supporters-btn-logo{
+      margin: 50px auto;
+
+      .cubex-logo{
+        width: 262px;
+        height: 81px;
+        border-radius: 41px;
+        border: none;
+        box-shadow: 0px 5px 16px rgba(158,158,158,0.3);
+        background-color: #e9f7ff;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+      .cubits-logo{
+        width: 262px;
+        height: 81px;
+        border-radius: 41px;
+        border: none;
+        box-shadow: 0px 5px 16px rgba(158,158,158,0.3);
+        background-color: #e9f7ff;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  /* === End Supporters Section === */
+
+  /* === Start Footer Section === */
+  .container-fluid {
+    background-color: #e9f7ff;
+  }
+  .footer-section {
+    background-color: #e9f7ff;
+
+    &__high{
+      padding-top: 30px;
+
+      .mail-text{
+        text-align: left;
+        font-size: 0.7rem;
+        line-height: 20px;
+        color: $main-font-color;
+        font-family: $main-font-family;
+        padding: 0;
+      }
+      .footer-navbar{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+
+        & .nav-link{
+          padding: 0 30px 20px;
+          color: $main-font-color;
+          font-size: 0.875rem;
+          letter-spacing: 0px;
+          line-height: 25px;
+          color: $main-font-color;
+          font-family: $main-font-family;
+          text-align: center;
+        }
+      }
+      .mining-footer-text{
+        text-align: right;
+        font-size: 0.7rem;
+        line-height: 20px;
+        color: $main-font-color;
+        font-family: $main-font-family;
+        padding: 0;
+      }
+    }
+    &__low{
+
+      .mail{
+        text-align: left;
+        padding: 0;
+
+        & img{
+          margin-right: 15px;
+        }
+
+        & a{
+          font-size: 0.875rem;
+          line-height: 18px;
+          color: $main-font-color;
+          font-family: $main-font-family;
+        }
+      }
+      .copyright{
+        text-align: center;
+        font-size: 0.6875rem;
+        letter-spacing: 0px;
+        line-height: 25px;
+        color: $main-font-color;
+        font-family: $main-font-family;
+      }
+      .companies-sm-logo{
+        text-align: right;
+        padding: 0;
+
+        & img:first-child{
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  /* === End Footer Section === */
+
+}
